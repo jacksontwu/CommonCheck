@@ -74,34 +74,6 @@
 					<autoReleaseAfterClose>true</autoReleaseAfterClose>
 				</configuration>
 			</plugin>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>3.1.1</version>
-				<configuration>
-					<configLocation>google-checks.xml</configLocation>
-					<encoding>UTF-8</encoding>
-					<consoleOutput>true</consoleOutput>
-					<failsOnError>true</failsOnError>
-					<linkXRef>false</linkXRef>
-				</configuration>
-				<executions>
-					<execution>
-						<id>validate</id>
-						<phase>validate</phase>
-						<goals>
-							<goal>check</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-
-			<!-- <plugin> <groupId>org.codehaus.mojo</groupId> <artifactId>license-maven-plugin</artifactId> 
-				<version>1.18</version> <configuration> <excludedLicenses> <excludedLicense>gpl_v3</excludedLicense> 
-				</excludedLicenses> <execution> <id>validate</id> <phase>validate</phase> 
-				<goals> <goal>add-third-party</goal> </goals> </execution> </configuration> 
-				</plugin> -->
 		</plugins>
 	</build>
 
