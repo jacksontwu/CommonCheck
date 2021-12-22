@@ -8,10 +8,6 @@
 	<name>commoncheck</name>
 	<description>common check</description>
 	<url>https://github.com/jacksontwu/CommonCheck</url>
-	<properties>
-		<java.version>11</java.version>
-	</properties>
-
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>
@@ -25,7 +21,6 @@
 		<developer>
 			<name>jacksontwu</name>
 			<email>jacksonwu1992@163.com</email>
-			<organization>github.com/jacksontwu</organization>
 		</developer>
 	</developers>
 
