@@ -6,9 +6,6 @@ jobs:
   release:
     runs-on: ubuntu-18.04
     steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v2
-
       - name: Checkout Git Repo
         uses: actions/checkout@v2
       - name: Set up Maven Central Repo
