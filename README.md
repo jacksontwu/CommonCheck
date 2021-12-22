@@ -1,6 +1,6 @@
 # CommonCheck
 
-## how to use
+## how to use in java
 ```java
 Req req = new Req();
 Test t = new Test();
